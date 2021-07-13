@@ -10,5 +10,6 @@ The Color Splasher is a tool initially developed by BIM One that allows to graph
 - Facilitates monitoring of model quality
 
 
+---
 
 - In the [wiki](https://github.com/bimone/addins-colorsplasher/wiki) section, you will find most of the information from our documentation regarding the Color Splasher Addin
