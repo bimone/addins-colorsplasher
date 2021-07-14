@@ -15,3 +15,13 @@ The Colour Splasher is a tool by BIM One that allows to graphically visualize an
 ---
 
 - In the [wiki](https://github.com/bimone/addins-colorsplasher/wiki) section, you will find most of the information from our documentation regarding the Color Splasher Addin
+
+---
+
+> COLORER VOS ÉLÉMENTS POUR MIEUX LES VÉRIFIER
+
+L'éclat de couleur est un outil par BIM One qui permet de visualiser graphiquement l’information contenue dans un modèle. Il filtre, sélectionne et colore les éléments en fonction des valeurs d’un paramètre défini pour ainsi voir s’il existe des erreurs ou un manque d’information. L’utilisateur sélectionne d’abord une catégorie à laquelle appliquer une coloration pour ensuite sélectionner un paramètre et définir des couleurs pour chacune des valeurs de ce paramètre.
+
+- Visualisation rapide des problèmes potentiels
+- Facilite le suivi de qualité du modèle
+- Plus rapide que la création de filtres de vue
