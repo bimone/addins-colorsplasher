@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Color Splasher</Name>
+    <Assembly>ColorSplasher/ColorSplasher.dll</Assembly>
+    <AddInId>65E29945-BC51-4782-A758-CA8F1DC79AE5</AddInId>
+    <FullClassName>ColorSplasher.Button</FullClassName>
+    <VendorId>BIMO</VendorId>
+    <VendorDescription>Colorize Revit elements based on certain criterias.</VendorDescription>
+  </AddIn>
+</RevitAddIns>

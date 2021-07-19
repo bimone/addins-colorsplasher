@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+ 
+  <data name="Blue" xml:space="preserve">
+    <value>Révisé en bleu</value>
+  </data>
+  <data name="ClashDetected" xml:space="preserve">
+    <value>conflit (s) détecté (s)</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Erreur</value>
+  </data>
+  <data name="Error_3DView" xml:space="preserve">
+    <value>Nous ne sommes pas en mesure de créer la vue 3D.</value>
+  </data>
+  <data name="Error_FamilyProject" xml:space="preserve">
+    <value>Vous devez être dans un environnement de projet pour utiliser Color Splasher mais vous êtes actuellement dans un environnement familial. Veuillez ouvrir un projet et réessayer.</value>
+  </data>
+  <data name="Error_LinkedFileNotLinked" xml:space="preserve">
+    <value>Le fichier lié est enregistré mais nous ne pouvons pas le lier. .</value>
+  </data>
+  <data name="Error_LinkedFileNotSaved" xml:space="preserve">
+    <value>Nous ne pouvons pas enregistrer le fichier lié. Veuillez réimporter le rapport et vérifier que vous avez accès au chemin spécifié. Si l'erreur persiste, .</value>
+  </data>
+  <data name="Error_NoClashRead" xml:space="preserve">
+    <value>Aucun affrontement n'a été lu dans le rapport Naviswork. Voici les raisons possibles pour lesquelles nous ne pouvons pas importer les conflits:
+
+   • Vous avez sélectionné le mauvais fichier. Le rapport doit être un fichier .xml
+   • Le rapport ne contient pas d'affrontements
+   • Des champs manquent dans le rapport de conflit
+
+</value>
+  </data>
+  <data name="Error_RevitFileNotAccessible" xml:space="preserve">
+    <value>Nous ne pouvons pas lire le fichier de famille de la sphère de conflit (.rfa). Essaye ça:
+
+    1. Fermez Revit et réessayez
+    2. Réinstallez le plugin
+
+</value>
+  </data>
+  <data name="Error_RevitTemplateFileNotAccessible" xml:space="preserve">
+    <value>Nous ne pouvons pas lire le fichier lié au modèle Revit (Coordination Report.rte). Essaye ça:
+
+    1. Fermez Revit et réessayez
+    2. Réinstallez le plugin
+
+</value>
+  </data>
+  <data name="Error_SaveYourFile" xml:space="preserve">
+    <value>Le projet doit être enregistré avant d'utiliser cet outil</value>
+  </data>
+  <data name="Error_Schedule" xml:space="preserve">
+    <value>Nous ne sommes pas en mesure de créer la nomenclature. Veuillez le faire manuellement et contacter le support.</value>
+  </data>
+  <data name="Error_Unknown" xml:space="preserve">
+    <value>Quelle? Comment obtenez-vous cela? Il s'agit d'une erreur inconnue. .</value>
+  </data>
+  <data name="FileSelected" xml:space="preserve">
+    <value>fichier (s) sélectionné (s),</value>
+  </data>
+  <data name="FormBtn_ApplyColorSet" xml:space="preserve">
+    <value>Appliquer</value>
+  </data>
+  <data name="FormBtn_ClearSet" xml:space="preserve">
+    <value>Réinitialiser</value>
+  </data>
+  <data name="FormBtn_LoadSchema" xml:space="preserve">
+    <value>Charger le schéma</value>
+  </data>
+  <data name="FormBtn_Rainbow" xml:space="preserve">
+    <value>Arc-en-ciel</value>
+  </data>
+  <data name="FormBtn_Refresh" xml:space="preserve">
+    <value>Rafraîchir</value>
+  </data>
+  <data name="FormBtn_SaveSchema" xml:space="preserve">
+    <value>Enregistrer le schéma</value>
+  </data>
+  <data name="FormTitle_CategoryHoldCtrlForMultipleSelections" xml:space="preserve">
+    <value>Catégorie (maintenez la touche Ctrl enfoncée pour plusieurs sélections)</value>
+  </data>
+  <data name="FormTitle_Filters" xml:space="preserve">
+    <value>Filtres</value>
+  </data>
+  <data name="FormTitle_Parameters" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="FormTitle_Values" xml:space="preserve">
+    <value>Valeurs</value>
+  </data>
+  <data name="FormToolTipBtn_ApplyColorSet" xml:space="preserve">
+    <value>Appliquer la configuration de couleur</value>
+  </data>
+  <data name="FormToolTipBtn_ClearSet" xml:space="preserve">
+    <value>Réinitialiser tous les remplacements</value>
+  </data>
+  <data name="FormToolTipBtn_LoadSchema" xml:space="preserve">
+    <value>Charger le fichier csch</value>
+  </data>
+  <data name="FormToolTipBtn_Rainbow" xml:space="preserve">
+    <value>Créer un morphing de jeu de couleurs du début à la fin</value>
+  </data>
+  <data name="FormToolTipBtn_Refresh" xml:space="preserve">
+    <value>Appliquer un jeu de couleurs aléatoire</value>
+  </data>
+  <data name="FormToolTipBtn_SaveSchema" xml:space="preserve">
+    <value>Enregistrer le fichier csch</value>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>Approuvé vert</value>
+  </data>
+  <data name="ImportFailed" xml:space="preserve">
+    <value>Échec de l'importation. Veuillez réessayer...</value>
+  </data>
+  <data name="ImportSuceed" xml:space="preserve">
+    <value> clash spheres générées !</value>
+  </data>
+ 
+  <data name="LinkOfFileNewFile" xml:space="preserve">
+    <value>Lier le fichier hôte au nouveau fichier</value>
+  </data>
+  
+  <data name="MsgBox_PleaseSelectParameterFirst" xml:space="preserve">
+    <value>Veuillez d'abord sélectionner le paramètre</value>
+  </data>
+  <data name="MsgBox_SelectAParameter" xml:space="preserve">
+    <value>Sélectionnez un paramètre</value>
+  </data>
+  <data name="MsgBox_Warning" xml:space="preserve">
+    <value>Avertissement</value>
+  </data>
+  <data name="NoClashDetected" xml:space="preserve">
+    <value>Vous devez avoir détecté au moins 1 conflit pour importer le rapport</value>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>Orange-Actif</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Rouge-Nouveau</value>
+  </data>
+  <data name="SelectYourFolder" xml:space="preserve">
+    <value>Sélectionnez le dossier dans lequel vous souhaitez enregistrer le fichier lié</value>
+  </data>
+  <data name="ToolBox_CannotConnectToServeur" xml:space="preserve">
+    <value>Connexion au serveur impossible</value>
+  </data>
+  <data name="ToolBox_Exit" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="ToolBox_Help" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="ToolBox_NewversionAvailable" xml:space="preserve">
+    <value>Nouvelle version disponible</value>
+  </data>
+  <data name="ToolBox_NoNewVersionAvailable" xml:space="preserve">
+    <value>Version à jour</value>
+  </data>
+  <data name="ToolBox_Support" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>2015.2.0.1</value>
+  </data>
+  <data name="Yellow" xml:space="preserve">
+    <value>Résolu en jaune</value>
+  </data>
+</root>
