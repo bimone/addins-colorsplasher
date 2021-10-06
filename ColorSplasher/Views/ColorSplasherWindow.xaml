@@ -21,7 +21,7 @@
                 <Label Margin="0,0,0,0">
                     <TextBlock Text="{x:Static res:Resource.FormTitle_CategoryHoldCtrlForMultipleSelections}" TextWrapping="Wrap" FontWeight="Normal" />
                 </Label>
-                <ListBox x:Name="lbCategory" DisplayMemberPath="Name"  SelectedValuePath="Name" Height="86" SelectionChanged="lbCategory_SelectionChanged" FontWeight="Normal" Margin="10,0,10,5"/>
+                <ListBox x:Name="lbCategory" DisplayMemberPath="Name"  SelectedValuePath="Name" Height="86" SelectionChanged="lbCategory_SelectionChanged" FontWeight="Normal" Margin="10,0,10,5" SelectionMode="Extended"/>
                 <Label Content="{x:Static res:Resource.FormTitle_Parameters}" FontWeight="Normal"/>
                 <ListBox x:Name="lbProperties" Height="253" DisplayMemberPath="Name" SelectedValuePath="Name" SelectionChanged="lbProperties_SelectionChanged" FontWeight="Normal" Margin="10,0,10,5"/>
             </StackPanel>
