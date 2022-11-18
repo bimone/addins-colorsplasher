@@ -577,7 +577,8 @@ namespace ColorSplasher.Views
                     break;
 
                 case StorageType.Integer:
-                    if (ParameterType.YesNo == p.Definition.ParameterType) {
+                    if (SpecTypeId.Boolean.YesNo == p.Definition.GetDataType())
+                    {
                         if (p.AsInteger() == 0) 
                             s = "False";
                          else 

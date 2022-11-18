@@ -68,17 +68,25 @@
     <ApplicationIcon>ColorSplasherIcon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="RevitAPI, Version=21.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\Revit.RevitApi.x64.2021.0.0\lib\net48\RevitAPI.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="AdWindows, Version=4.0.0.6, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Revit_All_Main_Versions_API_x64.2023.0.0\lib\net48\AdWindows.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
     </Reference>
-    <Reference Include="RevitAPIUI, Version=21.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\Revit.RevitApiUI.x64.2021.0.0\lib\net48\RevitAPIUI.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="RevitAPI, Version=23.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\Revit_All_Main_Versions_API_x64.2023.0.0\lib\net48\RevitAPI.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RevitAPIUI, Version=23.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\Revit_All_Main_Versions_API_x64.2023.0.0\lib\net48\RevitAPIUI.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Windows.Forms" />
@@ -91,6 +99,11 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UIFramework, Version=23.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\Revit_All_Main_Versions_API_x64.2023.0.0\lib\net48\UIFramework.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
     </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
@@ -153,6 +166,7 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Resource.fr.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
@@ -265,9 +279,9 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>
-      copy "$(MSBuildProjectDirectory)\addin.addin" "%25appdata%25\Autodesk\Revit\Addins\2021\$(MSBuildProjectName).addin"
-      xcopy "$(MSBuildProjectDirectory)\$(OutputPath)$(TargetFramework)\*" "%25appdata%25\Autodesk\Revit\Addins\2021\ColorSplasher\" /S /E /R /I /F /Y
-    </PostBuildEvent>
+      copy "$(MSBuildProjectDirectory)\addin.addin" "%25appdata%25\Autodesk\Revit\Addins\2023\$(MSBuildProjectName).addin"
+      xcopy "$(MSBuildProjectDirectory)\$(OutputPath)$(TargetFramework)\*" "%25appdata%25\Autodesk\Revit\Addins\2023\ColorSplasher\" /S /E /R /I /F /Y
+</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
