@@ -1,7 +1,17 @@
 # Color Splasher
 
-- Téléchargements : cliquez ici => https://github.com/floriangouy/addins-colorsplasher/releases
-- Downloads : click here => https://github.com/floriangouy/addins-colorsplasher/releases
+## Fichier d'installation | Installer 2015-2021
+
+[Color Splasher Revit 2015-2021](https://github.com/bimone/addins-colorsplasher/releases/download/21.0.0.0/BIMOneColorSplasher.21.0.0.msi)
+
+## DLL 2022-2023
+
+[Color Splasher Revit 2022](https://github.com/floriangouy/addins-colorsplasher/releases/download/v23.0.0.0/ColorSplasher2022.zip)
+
+[Color Splasher Revit 2023](https://github.com/floriangouy/addins-colorsplasher/releases/download/v23.0.0.0/ColorSplasher2023.zip)
+
+[Installation](https://github.com/bimone/addins-colorsplasher/wiki/Installation-2022-2023)
+
 
 > English version below
 
