@@ -6,7 +6,7 @@
 
 ## DLL 2022-2023
 
-[Color Splasher Revit 2022](https://github.com/floriangouy/addins-colorsplasher/releases/download/v23.0.0.0/ColorSplasher2022.zip)
+[Color Splasher Revit 2022](https://github.com/floriangouy/addins-colorsplasher/releases/download/v22.0.0.0/ColorSplasher2022.zip)
 
 [Color Splasher Revit 2023](https://github.com/floriangouy/addins-colorsplasher/releases/download/v23.0.0.0/ColorSplasher2023.zip)
 
