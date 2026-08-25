@@ -1,28 +1,41 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorSplasher", "ColorSplasher\ColorSplasher.csproj", "{C5E6F062-7C3B-400F-9595-56E4100CCA8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		
-		
-		Release|Any CPU = Release|Any CPU
+		Debug R23|x64 = Debug R23|x64
+		Debug R24|x64 = Debug R24|x64
+		Debug R25|x64 = Debug R25|x64
+		Debug R26|x64 = Debug R26|x64
+		Release R23|x64 = Release R23|x64
+		Release R24|x64 = Release R24|x64
+		Release R25|x64 = Release R25|x64
+		Release R26|x64 = Release R26|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C5E6F062-7C3B-400F-9595-56E4100CCA8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C5E6F062-7C3B-400F-9595-56E4100CCA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C5E6F062-7C3B-400F-9595-56E4100CCA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C5E6F062-7C3B-400F-9595-56E4100CCA8E}.Release|Any CPU.Build.0 = Release|Any CPU
-		
+		{C5E6F062-7C3B-400F-9595-56E4100CCA8E}.Debug R23|x64.ActiveCfg = Debug R23|x64
+		{C5E6F062-7C3B-400F-9595-56E4100CCA8E}.Debug R23|x64.Build.0 = Debug R23|x64
+		{C5E6F062-7C3B-400F-9595-56E4100CCA8E}.Debug R24|x64.ActiveCfg = Debug R24|x64
+		{C5E6F062-7C3B-400F-9595-56E4100CCA8E}.Debug R24|x64.Build.0 = Debug R24|x64
+		{C5E6F062-7C3B-400F-9595-56E4100CCA8E}.Debug R25|x64.ActiveCfg = Debug R25|x64
+		{C5E6F062-7C3B-400F-9595-56E4100CCA8E}.Debug R25|x64.Build.0 = Debug R25|x64
+		{C5E6F062-7C3B-400F-9595-56E4100CCA8E}.Debug R26|x64.ActiveCfg = Debug R26|x64
+		{C5E6F062-7C3B-400F-9595-56E4100CCA8E}.Debug R26|x64.Build.0 = Debug R26|x64
+		{C5E6F062-7C3B-400F-9595-56E4100CCA8E}.Release R23|x64.ActiveCfg = Release R23|x64
+		{C5E6F062-7C3B-400F-9595-56E4100CCA8E}.Release R23|x64.Build.0 = Release R23|x64
+		{C5E6F062-7C3B-400F-9595-56E4100CCA8E}.Release R24|x64.ActiveCfg = Release R24|x64
+		{C5E6F062-7C3B-400F-9595-56E4100CCA8E}.Release R24|x64.Build.0 = Release R24|x64
+		{C5E6F062-7C3B-400F-9595-56E4100CCA8E}.Release R25|x64.ActiveCfg = Release R25|x64
+		{C5E6F062-7C3B-400F-9595-56E4100CCA8E}.Release R25|x64.Build.0 = Release R25|x64
+		{C5E6F062-7C3B-400F-9595-56E4100CCA8E}.Release R26|x64.ActiveCfg = Release R26|x64
+		{C5E6F062-7C3B-400F-9595-56E4100CCA8E}.Release R26|x64.Build.0 = Release R26|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {072BD794-DFF3-4734-8966-4EE1DE94F53C}

@@ -362,7 +362,7 @@ namespace ColorSplasher.Views
                 {
                     var cat = bic[lbCategory.SelectedIndex].Category;
                     var col = new FilteredElementCollector(_doc, _doc.ActiveView.Id);
-                    var types = col.OfCategory((BuiltInCategory) cat.Id.IntegerValue).WhereElementIsNotElementType();
+                    var types = col.OfCategory((BuiltInCategory) cat.Id.ToLong()).WhereElementIsNotElementType();
                     var lst = new List<string>();
                     foreach (var tp in types)
                     {
@@ -567,10 +567,10 @@ namespace ColorSplasher.Views
 
                 case StorageType.ElementId:
                     var id = p.AsElementId();
-                    if (id.IntegerValue >= 0) 
+                    if (id.ToLong() >= 0)
                         s = _doc.GetElement(id).Name;
                     else {
-                        s = id.IntegerValue.ToString();
+                        s = id.ToLong().ToString();
                         if (s == "-1")
                             s = "None";
                     }
